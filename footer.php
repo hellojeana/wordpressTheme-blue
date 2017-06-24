@@ -27,7 +27,7 @@
 						<?php sparkling_footer_links(); ?>
 					</nav>
 					<div class="copyright col-md-6">
-					©&nbsp&nbspCopyright&nbsp&nbsp2017&nbsp&nbspJeana&nbsp&nbsp琼ICP备xxxxxx号<br/>
+					©&nbsp&nbspCopyright&nbsp&nbsp2017&nbsp&nbspJeana&nbsp&nbsp琼ICP备4637282号<br/>
 &nbsp&nbsp&nbsp&nbspPowered&nbsp&nbspby&nbsp&nbspWordPress.&nbsp&nbspHosting&nbsp&nbspby&nbsp&nbsp阿里云
 					</div>
 				</div>
@@ -38,6 +38,15 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?509c20b27a8b531437d7c2ab26fe33cb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 
 </body>
 </html>

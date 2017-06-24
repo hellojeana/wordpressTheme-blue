@@ -29,14 +29,20 @@
 			<?php if ( is_search() ) : // Only display Excerpts for Search ?>
 			<div class="entry-summary">
 				<?php the_excerpt(); ?>
-				<p><a class="btn btn-default read-more" href="<?php the_permalink(); ?>"><?php _e( 'Read More', 'sparkling' ); ?></a></p>
+				<p><a class="btn btn-default read-more" href="<?php the_permalink(); ?>"><?php if(!is_single()) {
+the_excerpt();
+} else {
+the_content(__('(Read more)'));}?></a></p>
 			</div><!-- .entry-summary -->
 			<?php else : ?>
 			<div class="entry-content">
 
-					<?php the_content(); ?>
+					<?php if(!is_single()) {
+the_excerpt();
+} else {
+the_content(__('(Read more)'));}?>
 
-				<p><a class="btn btn-default read-more" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php _e( 'Read More', 'sparkling' ); ?></a></p>
+				<p><a class="btn btn-default read-more" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php _e( '阅读全文', 'sparkling' ); ?></a></p>
 
 				<?php
 					wp_link_pages( array(

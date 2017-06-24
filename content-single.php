@@ -13,12 +13,13 @@
 
 			<div class="entry-meta">
 				<?php sparkling_posted_on(); ?>
-
+ <?php if(function_exists('the_views')) { the_views(); } ?>
 				<?php
 					/* translators: used between list items, there is a space after the comma */
 					$categories_list = get_the_category_list( __( ', ', 'sparkling' ) );
 					if ( $categories_list && sparkling_categorized_blog() ) :
 				?>
+ 
 				<span class="cat-links"><i class="fa fa-folder-open-o"></i>
 					<?php printf( __( ' %1$s', 'sparkling' ), $categories_list ); ?>
 				</span>
