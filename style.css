@@ -1171,9 +1171,8 @@ p.logged-in-as {
   overflow: hidden;
 }
 .copyright {
-  margin-top: 10px;
-  float: right;
-  text-align: right;
+  margin-top: 5px;
+  text-align: center;
 }
 #colophon {
   background-color: #1F1F1F;

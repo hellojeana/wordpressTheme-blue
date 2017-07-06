@@ -26,9 +26,9 @@
 					<nav role="navigation" class="col-md-6">
 						<?php sparkling_footer_links(); ?>
 					</nav>
-					<div class="copyright col-md-6">
-					©&nbsp&nbspCopyright&nbsp&nbsp2017&nbsp&nbspJeana&nbsp&nbsp琼ICP备4637282号<br/>
-&nbsp&nbsp&nbsp&nbspPowered&nbsp&nbspby&nbsp&nbspWordPress.&nbsp&nbspHosting&nbsp&nbspby&nbsp&nbsp阿里云
+					<div class="copyright">
+					©&nbsp&nbsp2017&nbsp&nbspHello,&nbspJeana!&nbsp&nbsp琼ICP备17002443号<br/>
+&nbsp&nbsp&nbsp&nbspPowered&nbsp&nbspby&nbsp&nbsp<a href="http://wordpress.org" target="_blank" class="external" rel="nofollow">Wordpress</a>.&nbsp&nbspHosting&nbsp&nbspby&nbsp&nbsp<a href="https://www.aliyun.com" target="_blank" class="external" rel="nofollow">阿里云</a>.
 					</div>
 				</div>
 			</div><!-- .site-info -->
